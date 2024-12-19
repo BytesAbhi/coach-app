@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "Coach-Serach"]
+	url = https://github.com/BytesAbhi/test.git
+	fetch = +refs/heads/*:refs/remotes/Coach-Serach/*
+[remote "origin"]
+	url = https://github.com/Future-IT-Touch-Private-Limited/coach-finder-android-app-rn.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
